@@ -26,6 +26,7 @@ $contasCorrentes['123.456.789-10'] = depositar($contasCorrentes['123.456.789-10'
 titularComLetraMaiusculas($contasCorrentes['123.456.789-10']);
 
 foreach ($contasCorrentes as $cpf => $conta) {
+    $titular_$saldo
     exibeMensagem(
         mensagem:"$cpf  {$conta['titular']}  {$conta['saldo']}"
     );
