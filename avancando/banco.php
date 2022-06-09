@@ -43,7 +43,7 @@ titularComLetraMaiusculas($contasCorrentes['123.456.789-10']);
         <?php foreach ($contasCorrentes as $cpf => $conta) {?>
         <dt>
             <h3><?= $conta['titular']; ?> - <?= $cpf; ?></h3></dt>
-        <dd>Saldo: <?= $conta['saldo']; ?> </dd>
+        <dd>Saldo: <?=  $conta['saldo']; ?> </dd>
         <?php }?>
     </dl>
 </body>
